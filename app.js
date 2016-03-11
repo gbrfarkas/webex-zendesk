@@ -206,9 +206,15 @@
 			this.ajax('getTimeZoneList').done(function(data) {
 				var $xml = this.$(data),
 					timezones = [],
-					attendees = this.ticket().assignee().user().email() + ',' + this.ticket().requester().email(),
+					attendees,
 					gmtZeroFound = false,
 					errorMessage;
+
+				attendees = this.ticket().requester().email();
+
+				if (this.ticket().assignee().user() !== undefined) {
+					attendees += ',' + this.ticket().assignee().user().email(); 
+				}
     	      
 				if ((errorMessage = this.parseAPIError($xml)) !== undefined) {
 					this.switchTo('error', { message: errorMessage });

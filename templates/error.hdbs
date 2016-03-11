@@ -1,0 +1,4 @@
+<div class="alert alert-error">
+<h4>Oops!</h4>
+{{message}}
+</div>

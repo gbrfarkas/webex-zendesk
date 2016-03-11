@@ -98,7 +98,7 @@
       };
 
       return text.replace(/[&<>"']/g, function(m) { return map[m]; });
-      },
+    },
 
     createWebexXml: function(bodyContent) {
       var baseTemplate =

@@ -1,5 +1,5 @@
 {
-  "name": "Webex",
+  "name": "WebEx Meetings",
   "author": {
     "name": "Gabor Farkas",
     "email": "gi.farkas@gmail.com",
@@ -14,26 +14,22 @@
     {
        "name": "serviceUrl",
        "type": "url",
-       "required": "true",
-       "secure": "false"
+       "required": "true"
     },
     {
        "name": "webExID",
        "type": "text",
-       "required": "true",
-       "secure": "false"
+       "required": "true"
     },
     {
        "name": "password",
        "type": "password",
-       "required": "true",
-       "secure": "false"
+       "required": "true"
     },
     {
        "name": "siteName",
        "type": "text",
-       "required": "true",
-       "secure": "false"
+       "required": "true"
     }
   ]
 }

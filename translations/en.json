@@ -1,12 +1,12 @@
 {
   "app": {
-    "package": "webex_zendesk",
+    "package": "webex_meetings",
     "description": {
       "value": "Create WebEx meetings",
       "title": "app description"
     },
     "name": {
-      "value": "Webex Zendesk",
+      "value": "Webex Meetings",
       "title": "app name"
     },
     "parameters": {

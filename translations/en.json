@@ -9,11 +9,31 @@
       "value": "Webex Zendesk",
       "title": "app name"
     },
-	"parameters: {
-		"serviceUrl": { "label": "WebEx XML API URL" },
-		"webExID": { "label": "WebEx Username" },
-		"password": { "label": "WebEx Password" },
-		"siteName": { "label": "WebEx Site Name" }
+    "parameters": {
+      "serviceUrl": { 
+        "label": {
+          "value": "WebEx XML API URL",
+          "title": "The URL of the WebEx XML API service"
+        }
+      },
+      "webExID": {
+        "label": {
+          "value": "WebEx Username",
+          "title": "The WebEx account the meetings will be created with"
+        }
+      },
+      "password": {
+        "label": {
+          "value": "WebEx Password",
+          "title": "The password of the WebEx account"
+        }
+      },
+      "siteName": {
+        "label": {
+          "value": "WebEx Site Name",
+          "title": "The WebEx subdomain to be used"
+        }
+      }
 	}
   },
 
@@ -28,7 +48,7 @@
       "title": "fetch success"
     },
     "fail": {
-      "value": "failed to fecth information from the server",
+      "value": "failed to fetch information from the server",
       "title": "fetch failure"
     }
   },

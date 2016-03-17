@@ -1,4 +1,0 @@
-<div class="alert alert-success">
-<h4>Success!</h4>
-Meeting <strong>{{meeting.topic}}</strong> successfully created
-</div>

@@ -30,6 +30,9 @@
           '<metaData>\n' +
           '<confName>' + this.escapeHtml(meeting.topic) + '</confName>\n' +
           '</metaData>\n' +
+          '<attendeeOptions>\n' +
+          '<emailInvitations>TRUE</emailInvitations>' +
+          '</attendeeOptions>\n' +
           '<schedule>\n' +
           '<startDate>' + this.escapeHtml(meeting.startDate) + '</startDate>\n' +
           '<duration>' + this.escapeHtml(meeting.duration) + '</duration>\n' +

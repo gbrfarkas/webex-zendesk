@@ -30,6 +30,11 @@
           '<metaData>\n' +
           '<confName>' + this.escapeHtml(meeting.topic) + '</confName>\n' +
           '</metaData>\n' +
+          '<telephony>\n' +
+          '<telephonySupport>CALLIN</telephonySupport>\n' +
+          '<intLocalCallIn>TRUE</intLocalCallIn>\n' +
+          '<tollfree>TRUE</tollfree>\n' +
+          '</telephony>\n' +
           '<attendeeOptions>\n' +
           '<emailInvitations>TRUE</emailInvitations>' +
           '</attendeeOptions>\n' +

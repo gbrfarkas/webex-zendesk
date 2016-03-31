@@ -32,7 +32,8 @@
           '</metaData>\n' +
           '<telephony>\n' +
           '<telephonySupport>CALLIN</telephonySupport>\n' +
-          '<tollfree>TRUE</tollfree>\n' +
+          '<intLocalCallIn>TRUE</intLocalCallIn>\n' +          
+          '<tollFree>TRUE</tollFree>\n' +
           '</telephony>\n' +
           '<attendeeOptions>\n' +
           '<emailInvitations>TRUE</emailInvitations>' +
